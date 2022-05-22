@@ -37,11 +37,13 @@ img {
 
 .part1 p {
     text-align: justify;
+    font-weight: 500;
 }
 
 .part2 p {
     text-align: justify;
     margin-bottom: 3rem;
+    font-weight: 500;
 }
 
 @media only screen and (max-width: 850px) {

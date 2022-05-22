@@ -31,7 +31,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div id="product-1" class="single-product">
                         <div class="part-1">
-                            <span class="new">new Arrivals</span>
+
                             <ul>
                                 <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                                 <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -51,7 +51,7 @@
                     <div id="product-2" class="single-product">
                         <div class="part-1">
 
-                            <span class="new">new Arrivals</span>
+
                             <ul>
                                 <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                                 <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -69,7 +69,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div id="product-3" class="single-product">
                         <div class="part-1">
-                            <span class="new">new Arrivals</span>
+
                             <ul>
                                 <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                                 <li><a href="#"><i class="fas fa-heart"></i></a></li>
@@ -88,7 +88,7 @@
                 <div class="col-md-6 col-lg-4 col-xl-3">
                     <div id="product-4" class="single-product">
                         <div class="part-1">
-                            <span class="new">new Arrivals</span>
+
                             <ul>
                                 <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
                                 <li><a href="#"><i class="fas fa-heart"></i></a></li>

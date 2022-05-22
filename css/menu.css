@@ -1,0 +1,22 @@
+.submits {
+    border-radius: 50px;
+    border: #3C6E71 1px solid;
+    color: #3C6E71;
+    background-color: #ffffff;
+    padding: 0.5rem 3rem;
+}
+
+.submits:hover {
+    border-radius: 50px;
+    border: #3C6E71 1px solid;
+    color: #ffffff;
+    background-color: #3C6E71;
+}
+
+.nav-item:hover {
+    font: 1em sans-serif;
+}
+
+.p {
+    color: aqua;
+}

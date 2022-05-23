@@ -78,3 +78,18 @@ i {
     color: black;
     font-size: 2rem;
 }
+
+.heading {
+    text-align: center;
+}
+
+.heading h1 {
+    color: #284b63ff;
+    font-size: 1.5rem;
+}
+
+.heading p {
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(116, 112, 112);
+}

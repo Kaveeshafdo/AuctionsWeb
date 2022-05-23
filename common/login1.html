@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title></title>
+    <title>Login</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../css/stylelogin.css">
@@ -20,7 +20,24 @@
                 <h2 class="form__title">Sign Up</h2>
                 <input type="text" placeholder="Username" class="input" />
                 <input type="email" placeholder="Email" class="input" />
-                <input type="password" placeholder="Password" class="input" />
+                <label class="select" for="slct">
+                    <select id="slct" required="required">
+                      <option value="" disabled="disabled" selected="selected">Gender</option>
+                      <option value="#">Male</option>
+                      <option value="#">Female</option>
+                      <option value="#">Other</option>
+                     
+                    </select>
+                    <!-- SVG Sprites-->
+<svg class="sprites">
+    <symbol id="select-arrow-down" viewbox="0 0 10 6">
+      <polyline points="1 1 5 5 9 1"></polyline>
+    </symbol>
+  </svg>
+
+                <input type="text " placeholder="Username " class="input " />
+                <input type="email " placeholder="Email " class="input " />
+                <input type="password " placeholder="Password " class="input " />
                 <button class="btn">Sign Up</button>
             </form>
         </div>

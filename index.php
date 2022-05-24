@@ -1,3 +1,7 @@
+<?php
+  require_once('service/userservice.php');
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -10,9 +14,9 @@
 
 <body>
     <?php
-    include 'header.html';
+  //  include 'header.html';
     $userService = new UserService();
-    $userService->__constructWithoutId('Kaveesha', 'Kaveesh@gmail.com', '1234', '1999/06/11', '0763490745', 'male');
+    $userService->__constructWithoutId('Kaveesha', 'Kaveesh@gmail.com', '1234', '1999/06/11', '0763490745', 'm');
     $userService->insertUser();
 
     ?>

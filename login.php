@@ -21,7 +21,7 @@
                 <input type="text" placeholder="Username" class="input" />
                 <input type="email" placeholder="Email" class="input" />
                 <label class="select" for="slct">
-                    <select id="slct" required="required">
+                    <select id="slct" name="genderSelect" required="required">
                       <option value="" disabled="disabled" selected="selected">Gender</option>
                       <option value="#">Male</option>
                       <option value="#">Female</option>
@@ -34,9 +34,8 @@
       <polyline points="1 1 5 5 9 1"></polyline>
     </symbol>
   </svg>
-
-                <input type="text " placeholder="Username " class="input " />
-                <input type="email " placeholder="Email " class="input " />
+                <input type="date " placeholder="Date Of Birth " class="input " />
+                <input type="number " placeholder="Telephone No " class="input " />
                 <input type="password " placeholder="Password " class="input " />
                 <button class="btn">Sign Up</button>
             </form>

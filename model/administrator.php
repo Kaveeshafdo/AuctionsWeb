@@ -51,6 +51,7 @@ class Administrator
      * @param mixed $username
      */
     public function setUserName($username)
+
     {
         $this->username = $username;
     }

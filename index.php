@@ -17,6 +17,7 @@
   //  include 'header.html';
     $userService = new UserService();
     $userService->__constructWithoutId('Kaveesha', 'Kaveesh@gmail.com', '1234', '1999/06/11', '0763490745', 'm');
+    $userService->__constructWithoutId('Kaveesha', 'Kaveeshfdo@gmail.com', '1234', '1999/06/11', '0763490745', 'm');
     $userService->insertUser();
 
     ?>

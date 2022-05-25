@@ -55,7 +55,7 @@
     <title></title>
 </head>
 
-<<<<<<< Updated upstream
+
 <?php
   include 'common/header.php';
   include 'common/menu.php';
@@ -69,19 +69,6 @@
   $userService = new UserService();
   //$userService->__constructWithoutId('Kaveesha', 'Kaveesh@gmail.com', '1234', '1999/06/11', '0763490745', 'm');
   //  $userService->insertUser();
-=======
-<body>
-    <?php
-    include 'common/header.php';
-    include 'common/menu.php';
-    include 'recentpost.php';
-    include 'common/footer.php';
-    require_once('database/dbconnect.php');
-
-    $db = new dbconnect();
-    $db->checkDb();
-
->>>>>>> Stashed changes
 
   ?>
 

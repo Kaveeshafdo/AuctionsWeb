@@ -2,7 +2,7 @@
 require_once('service/userservice.php');
 require_once('database/dbconnect.php');
 ?>
- 
+
 <!DOCTYPE html>
 
 <html>
@@ -25,29 +25,24 @@ require_once('database/dbconnect.php');
                 <h2 class="form__title">Sign Up</h2>
                 <input type="text" name="uname" placeholder="Username" class="input" />
                 <input type="email" name="email" placeholder="Email" class="input" />
-                <label class="select" for="slct">
-                    <select id="slct" name="genderSelect" required="required">
-                      <option value="X" disabled="disabled" selected="selected">Gender</option>
-                      <option value="M">Male</option>
-                      <option value="F">Female</option>
-                      <option value="O">Other</option>                  
-                    </select>
-                    <!-- SVG Sprites-->
-<svg class="sprites">
-    <symbol id="select-arrow-down" viewbox="0 0 10 6">
-      <polyline points="1 1 5 5 9 1"></polyline>
-    </symbol>
-  </svg>
-                <input type="date" name="dob" placeholder="Date Of Birth " class="input " />
-                <input type="number" name="telNo" placeholder="Telephone No " class="input " />
-                <input type="password" name="pass" placeholder="Password " class="input " />
-                <input type="submit" value="Sign Up" class="btn" name="signupBtn">
+                <label class="select" for="slct"></label>
+                <select id="slct" name="genderSelect" required="required">
+                    <option value="X" disabled="disabled" selected="selected">Gender</option>
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                    <option value="O">Other</option>
+                </select>
+               
+                <input type="date" name="dob" placeholder="Date Of Birth" class="input " />
+                <input type="number" name="telNo" placeholder="Telephone No" class="input " />
+                <input type="password" name="pass" placeholder="Password" class="input " />
+                <input name="signupBtn" type="submit" value="Sign Up" class="btn">
             </form>
         </div>
         <!-- Sign In -->
         <div class="container__form container--signin">
 
-        <form action="login_register.php" method="POST" class="form" id="form2">
+            <form action="" method="POST" class="form" id="form2">
                 <h2 class="form__title">Sign In</h2>
                 <input type="text" name="log_uname" placeholder="Username" class="input" />
                 <input type="password" name="log_pass" placeholder="Password" class="input" />
@@ -70,7 +65,7 @@ require_once('database/dbconnect.php');
                         <ion-icon name="logo-skype"></ion-icon>
                     </a>
                 </div>
-                <input type="submit" value="Sign In" class="btn" name="signinBtn">
+                <input name="signinBtn" type="submit" value="Sign In" class="btn">
 
             </form>
 
@@ -90,48 +85,49 @@ require_once('database/dbconnect.php');
 
     <?php
 
-if ($_SERVER['REQUEST_METHOD'] == "POST") {
-    if (isset($_POST['signupBtn'])) {
-    
-        $username = $_POST['uname'];
-        $email = $_POST['email'];
-        $genderSelect = $_POST['genderSelect'];
-        $dateOfBirth = $_POST['dob'];
-        $teleNo = $_POST['telNo'];
-        $password = $_POST['pass'];
+    if ($_SERVER['REQUEST_METHOD'] == "POST") {
+        echo '<script> alert("POST Successfully"); </script>';
+        if (isset($_POST['signupBtn'])) {
+            echo '<script> alert("Register Successfully"); </script>';
+            $username = $_POST['uname'];
+            $email = $_POST['email'];
+            $genderSelect = $_POST['genderSelect'];
+            $dateOfBirth = $_POST['dob'];
+            $teleNo = $_POST['telNo'];
+            $password = $_POST['pass'];
 
-        $userService = new UserService();
-        $userService->__constructWithoutId($username,$email,$password,$dateOfBirth,$teleNo,$genderSelect);
-        $userService->insertUser();
-        echo '<script> alert("Register Successfully"); </script>';
-    }
-}
-
-if ($_SERVER['REQUEST_METHOD'] == "POST") {
-    if (isset($_POST['signinBtn'])) {
-        $username1 = $_POST['log_uname'];
-        $password1 = $_POST['log_pass'];
-        echo '<script> alert("Login Successfully"); </script>';
-        echo $username1;
-        echo $password1;
-
-        $db = new dbconnect();
-        $result = $db->getfromdb("SELECT id,username,password FROM user WHERE username='$username1' && password='$password1'");
-
-       if (mysqli_num_rows($result) > 0) {
-           
-        echo '<script> alert("Login Successfully"); </script>';
-        echo "<script> window.location.href='index.php';
-        </script>";
-        } else if(mysqli_num_rows($result) == 0){
-            echo '<script> alert("Incorect User name or password"); </script>';
-            echo "<script> window.location.href='login_register.php';</script>";
+            $userService = new UserService();
+            $userService->__constructWithoutId($username, $email, $password, $dateOfBirth, $teleNo, $genderSelect);
+            $userService->insertUser();
+            echo '<script> alert("Register Successfully"); </script>';
         }
+
+        if (isset($_POST['signinBtn'])) {
+            $username1 = $_POST['log_uname'];
+            $password1 = $_POST['log_pass'];
+            echo '<script> alert("Login Successfully"); </script>';
+            echo $username1;
+            echo $password1;
+
+            $db = new dbconnect();
+            $result = $db->getfromdb("SELECT id,username,password FROM user WHERE username='$username1' && password='$password1'");
+
+            if (mysqli_num_rows($result) > 0) {
+
+                echo '<script> alert("Login Successfully"); </script>';
+                echo "<script> window.location.href='index.php';
+        </script>";
+            } else if (mysqli_num_rows($result) == 0) {
+                echo '<script> alert("Incorect User name or password"); </script>';
+                echo "<script> window.location.href='login_register.php';</script>";
+            }
+        }
+    } else {
+        echo '<script>alert("else");</script>';
+
     }
-}
 
-
-?>
+    ?>
 
 
     <script>

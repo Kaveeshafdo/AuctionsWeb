@@ -29,11 +29,11 @@ body {
     z-index: 1000;
     position: fixed;
     left: 250px;
-    width: 250px;
-    height: 100%;
+    width: 200px;
+    height: 50%;
     margin-left: -250px;
     overflow-y: auto;
-    background: #37474F;
+    background: transparent;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
@@ -41,28 +41,30 @@ body {
 }
 
 #sidebar header {
-    background-color: #284b63ff;
+    background-color: #353535ff;
     font-size: 20px;
     line-height: 52px;
     text-align: center;
     margin-bottom: 1rem;
+    border: 1px solid #284b63ff;
 }
 
 #sidebar header a {
-    color: #fff;
+    color: rgb(255, 255, 255);
     display: block;
     text-decoration: none;
 }
 
 #sidebar header a:hover {
-    color: #fff;
+    color: #3c6e71ff;
+    font-weight: 500;
 }
 
 #sidebar .nav {}
 
 #sidebar .nav a {
     background: none;
-    color: #CFD8DC;
+    color: #37474F;
     font-size: 14px;
     padding: 16px 24px;
     text-decoration: none;

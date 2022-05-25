@@ -36,6 +36,7 @@
     <link href="css/main.css" rel="stylesheet" />
     <link rel="stylesheet" href="css/menu.css" />
     <link rel="stylesheet" href="css/recent_exchange.css" />
+    <link rel="stylesheet" type="" href="css/category.css">
     <style>
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -54,17 +55,20 @@
     <title></title>
 </head>
 
-<body>
-    <?php
-    include 'common/header.php';
-    include 'common/menu.php';
-    include 'recentpost.php';
-    include 'common/footer.php';
-    $userService = new UserService();
-    //$userService->__constructWithoutId('Kaveesha', 'Kaveesh@gmail.com', '1234', '1999/06/11', '0763490745', 'm');
+<?php
+  include 'common/header.php';
+  include 'common/menu.php';
+  ?>
+  <div style=""><?php
+        include 'common/category.php';
+        include 'recentpost.php';
+        ?></div>
+  <?php
+  include 'common/footer.php';
+  $userService = new UserService();
+  //$userService->__constructWithoutId('Kaveesha', 'Kaveesh@gmail.com', '1234', '1999/06/11', '0763490745', 'm');
   //  $userService->insertUser();
 
-    ?>
-</body>
+  ?>
 
 </html>

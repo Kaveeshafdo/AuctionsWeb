@@ -89,7 +89,7 @@ class Offer{
      */
     public function getSpecialNote()
     {
-        return $this->$specialNote;
+        return $this->specialNote;
     }
 
     /**
@@ -111,7 +111,7 @@ class Offer{
     /**
      * @param mixed $offerType
      */
-    public function setOfferType($postId)
+    public function setOfferType($offerType)
     {
         $this->offerType = $offerType;
     }

@@ -8,7 +8,7 @@
 
       public function checkDb(){
           if(is_null($this->conn)){
-            $this->conn = mysqli_connect($this->servername, $this->username, $this->password, $this->dbName);
+            $this->conn = mysqli_connect($this->servername, $this->username, $this->password, $this->dbname);
           }
            // Check connection
         if (!$this->conn) {

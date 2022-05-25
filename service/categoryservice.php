@@ -2,7 +2,7 @@
 require_once('database/dbconnect.php');
 require_once('model/category.php');
 
-class categroyService extends category{
+class CategroyService extends Category{
 
     private $db;
 

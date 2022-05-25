@@ -42,9 +42,6 @@ class Administrator
         $this->id = $id;
     }
 
-
-
-
     public function getUserName()
     {
         return $this->username;
@@ -58,7 +55,18 @@ class Administrator
         $this->username = $username;
     }
 
+    public function getEmail()
+    {
+        return $this->email;
+    }
 
+    /**
+     * @param mixed $username
+     */
+    public function setEmail($email)
+    {
+        $this->email = $email;
+    }
 
     public function getDateOfBirth()
     {
@@ -74,7 +82,7 @@ class Administrator
     }
 
 
-    public function getTeleNo()
+    public function getTelNo()
     {
         return $this->teleNo;
     }
@@ -82,7 +90,7 @@ class Administrator
     /**
      * @param mixed $teleNo
      */
-    public function setTeleNo($teleNo)
+    public function setTelNo($teleNo)
     {
         $this->teleNo = $teleNo;
     }

@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../css/product.css">
+    <link rel="stylesheet" href="css/product.css">
 
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/2.0.1/normalize.css">
     <!-- Bootstrap CSS -->
@@ -25,13 +25,13 @@
                 </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="../images/5.jpg" class="d-block w-100" alt="...">
+                        <img src="images/5.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../images/6.jpg" class="d-block w-100" alt="...">
+                        <img src="images/6.jpg" class="d-block w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                        <img src="../images/7.jpg" class="d-block w-100" alt="...">
+                        <img src="images/7.jpg" class="d-block w-100" alt="...">
                     </div>
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">

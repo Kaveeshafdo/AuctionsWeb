@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <div class="container">
         <div class="content">
             <div class="image">
                 <div class="img"> <img src="images/add.svg" alt=""></div>
@@ -21,13 +20,15 @@
 
 
             </div>
-            <div class="description">
+            <div class="description" style="text-align: left;">
                 <h3 style="margin-top: 1rem;">Add Category</h3>
                 <h5 style="font-size: 1rem; color:#353535ff ; margin-bottom: 1rem;">Add Category Name Here.....</h5>
-                <input name="name" type="text" class="feedback-input" placeholder="Category Name" />
-
+                <div class="form">
+                    <form><input name="name" type="text" class="feedback-input" placeholder="Category Name" s/>
+                    </form>
+                </div>
                 <div class="buttons" style="margin-top: 3rem;">
-                    <button class="btns1">Cancel</button>
+
                     <button class="btns2">Submit</button>
                 </div>
 

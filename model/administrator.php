@@ -45,7 +45,7 @@ class Administrator
 
 
 
-    public function getNserName()
+    public function getUserName()
     {
         return $this->username;
     }
@@ -53,7 +53,7 @@ class Administrator
     /**
      * @param mixed $username
      */
-    public function setNserName($username)
+    public function setUserName($username)
     {
         $this->username = $username;
     }
@@ -103,7 +103,7 @@ class Administrator
     }
 
 
-    public function getpPassword()
+    public function getPassword()
     {
         return $this->password;
     }

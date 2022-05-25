@@ -19,19 +19,19 @@ class CommentService extends Comment
         return $data3;
     }
 
-    public function insertUser()
+    public function insertComment()
     {
         $query = "INSERT INTO `comment`(`user_id`, `post_id`, `commentContent`) VALUES ('" . $this->inputClear($this->getUserId()) . "','" . $this->inputClear($this->getPostId()) . "','" . $this->inputClear($this->getCommentContent()) . "')";
         $this->db->insertIntoDb($query);
     }
 
-    public function updateUser()
+    public function updateComment()
     {
         $query = "UPDATE `comment` SET `user_id`='" . $this->inputClear($this->getUserId()) . "',`post_id`='" . $this->inputClear($this->getPostId()) . "',`commentContent`='" . $this->inputClear($this->getCommentContent()) . "' WHERE `id`='" . $this->inputClear($this->getId()) . "'";
         $this->db->insertIntoDb($query);
     }
 
-    public function deleteUser()
+    public function deleteComment()
     {
         $query = "UPDATE `comment` SET status=0 WHERE `id`='" . $this->inputClear($this->getId()) . "'";
         $this->db->insertIntoDb($query);

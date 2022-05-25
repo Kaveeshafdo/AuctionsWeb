@@ -18,7 +18,9 @@
     }
     
     .image {
-        width: 45%;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
     }
     
     .description {
@@ -34,7 +36,7 @@
         color: #3C6E71;
         font-size: 1.2rem;
         font-weight: 600;
-        padding: 0.5rem 7rem;
+        padding: 0.5rem 5rem;
         margin-bottom: 2rem;
     }
     
@@ -151,7 +153,17 @@
         .btns2 {
             padding: 0.2rem 3rem;
         }
-        .btns {
+        .btns2 {
             padding: 0.2rem 3rem;
         }
+    }
+    
+    .button {
+        margin-top: 2rem;
+        text-align: center;
+        width: 70%;
+    }
+    
+    .description h3 {
+        margin-bottom: 2rem;
     }

@@ -1,0 +1,96 @@
+.btn.btns2 {
+    border-radius: 50px;
+    background-color: #3C6E71;
+    color: #ffffff;
+    padding: 0.5rem 5rem;
+}
+
+.container {
+    margin-top: 2rem;
+}
+
+.btn.btns2:hover {
+    border-radius: 50px;
+    border: #3C6E71 1px solid;
+    color: #3C6E71;
+    background-color: #ffffff;
+}
+
+.change_img {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+img {
+    width: 80%;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+}
+
+.des {
+    width: 45%;
+}
+
+.btns1 {
+    color: #3C6E71;
+    background-color: white;
+    font-weight: 500;
+    border: #3C6E71 1px solid;
+    padding: 0.5rem 4rem;
+    border-radius: 50px;
+}
+
+.btns1:hover {
+    color: #ffffff;
+    background-color: #3C6E71;
+}
+
+.profile h2 {
+    font-size: 1.2rem;
+}
+
+.profile h1 {
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+
+.pass {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .change_img {
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+    .des {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    .profile h1 {
+        margin-bottom: 2rem;
+        margin-top: 0.2rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .btns1 {
+        padding: 0.5rem 2rem;
+    }
+    .btn.btns2 {
+        padding: 0.5rem 2rem;
+    }
+}

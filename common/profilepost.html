@@ -31,6 +31,10 @@
                         <h2 style="margin-bottom: 1.rem; border-bottom: 1px solid #3c6e71ff;">Product Name</h2>
                         <p style="text-align:justify ;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati beatae nesciunt vel sequi illum optio repudiandae, doloribus aliquam delectus. <br>Sint alias modi tempore aspernatur atque voluptas architecto odio nesciunt assumenda?</p>
                         <p>2 days ago..</p>
+                        <div class="buttons" style="margin-top: 3rem;">
+                            <button class="btns1">Cancel</button>
+                            <button class="btns2">Submit</button>
+                        </div>
                     </div>
                 </div>
 

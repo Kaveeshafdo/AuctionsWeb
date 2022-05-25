@@ -13,7 +13,6 @@
 </head>
 
 <body>
-    <div class="container">
         <div class="content">
             <div class="image">
                 <div class="img"> <img src="images/add.svg" alt=""></div>

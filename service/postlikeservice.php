@@ -1,6 +1,6 @@
 <?php
 require_once('database/dbconnect.php');
-require_once('model/postimage.php');
+require_once('model/postlike.php');
 
 class PostLikeService extends postLike
 {
@@ -25,7 +25,7 @@ class PostLikeService extends postLike
         $this->db->insertIntoDb($query);
     }
 
-    public function deleteUser()
+    public function deletePostLike()
     {
         $query = "DELETE FROM postLike WHERE user_id = '" . $this->inputClear($this->getPostId()) . "' and post_id = '" . $this->inputClear($this->getPostId()) . "';
         $this->db->insertIntoDb($query);

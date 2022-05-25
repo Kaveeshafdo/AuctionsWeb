@@ -2,7 +2,7 @@
 require_once('database/dbconnect.php');
 require_once('model/postimage.php');
 
-class PostImageService extends PostImage
+class PostLikeService extends postLike
 {
     private $db;
 
@@ -19,15 +19,15 @@ class PostImageService extends PostImage
         return $data3;
     }
 
-    public function insertUser()
+    public function insertPostLike()
     {
-        $query = "INSERT INTO `postImage`(`post_id`, `imageName`) VALUES ('" . $this->inputClear($this->getPostId()) . "','" . $this->inputClear($this->getImageName()) . "')";
+        $query = "INSERT INTO `postLike`(`user_id`, `post_id`) VALUES ('" . $this->inputClear($this->getPostId()) . "','" . $this->inputClear($this->getPostId()) . "')";
         $this->db->insertIntoDb($query);
     }
 
     public function deleteUser()
     {
-        $query = "UPDATE `postImage` SET `status`=0 WHERE `post_id`='" . $this->inputClear($this->getPostId()) . "' and `imageName`='" . $this->inputClear($this->getImageName()) . "'";
+        $query = "DELETE FROM postLike WHERE user_id = '" . $this->inputClear($this->getPostId()) . "' , post_id = '" . $this->inputClear($this->getPostId()) . "';
         $this->db->insertIntoDb($query);
     }
 }

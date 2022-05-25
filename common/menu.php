@@ -1,19 +1,4 @@
-<!doctype html>
-<html lang="en">
 
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="https://kit.fontawesome.com/9d5313112d.js" crossorigin="anonymous"></script>
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/menu.css" />
-    <title>menu</title>
-</head>
-
-<body>
 
     <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #d9d9d9ff;">
         <div class="container">
@@ -50,6 +35,3 @@
         crossorigin="anonymous"></script>
 
 
-</body>
-
-</html>

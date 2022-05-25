@@ -1,60 +1,68 @@
-<!doctype html>
-<html lang="en">
-
+<!DOCTYPE html>
+<html>
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="" href="../css/category.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
 
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+.sidenav {
+    position: relative;
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  background-color: #141d2a;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
 
-    <title>Category</title>
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1rem;
+  color: #818181;
+  display: block;
+  border-bottom:1px solid gray;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+header{
+    color:white;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
 </head>
-
 <body>
-    <div id="viewport">
-        <!-- Sidebar -->
-        <div id="sidebar">
-            <header>
-                <a href="#">Category</a>
-            </header>
-            <ul class="nav">
-                <li>
-                    <a href="#">
-                        Books
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Pens
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        Papers
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                         Pencils
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                         Other
-                    </a>
-                </li>
 
-            </ul>
-        </div>
-        <!-- Content -->
+<div class="sidenav">
+    <header >
+        Category
+    </header>
 
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
 
 
+   
 </body>
-
-</html>
+</html> 

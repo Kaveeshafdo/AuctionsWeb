@@ -45,7 +45,7 @@ class Administrator
 
 
 
-    public function getusername()
+    public function getNserName()
     {
         return $this->username;
     }
@@ -53,28 +53,28 @@ class Administrator
     /**
      * @param mixed $username
      */
-    public function setusername($username)
+    public function setNserName($username)
     {
         $this->username = $username;
     }
 
 
 
-    public function getdateofbirth()
+    public function getDateOfBirth()
     {
         return $this->dateofbirth;
     }
 
     /**
-     * @param mixed $$dateofbirth
+     * @param mixed $dateofbirth
      */
-    public function setdateofbirth($dateofbirth)
+    public function setDateOfBirth($dateofbirth)
     {
         $this->dateofbirth = $dateofbirth;
     }
 
 
-    public function getteleNo()
+    public function getTeleNo()
     {
         return $this->teleNo;
     }
@@ -82,14 +82,14 @@ class Administrator
     /**
      * @param mixed $teleNo
      */
-    public function setteleNo($teleNo)
+    public function setTeleNo($teleNo)
     {
         $this->teleNo = $teleNo;
     }
 
 
 
-    public function getgender()
+    public function getGender()
     {
         return $this->gender;
     }
@@ -97,13 +97,13 @@ class Administrator
     /**
      * @param mixed $gender
      */
-    public function setgender($gender)
+    public function setGender($gender)
     {
         $this->gender = $gender;
     }
 
 
-    public function getpassword()
+    public function getpPassword()
     {
         return $this->password;
     }
@@ -111,7 +111,7 @@ class Administrator
     /**
      * @param mixed $gender
      */
-    public function setpassword($password)
+    public function setPassword($password)
     {
         $this->password = $password;
     }

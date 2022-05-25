@@ -9,28 +9,24 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <title>Item For Trade</title>
+    <title>Add Category</title>
 </head>
 
 <body>
     <div class="container">
         <div class="content">
             <div class="image">
-                <div class="img"> <img src="../images/undraw_moments_0y20.svg" alt=""></div>
+                <div class="img"> <img src="../images/add.svg" alt=""></div>
 
-                <div class="button">
-                    <p>You Can Add 10 Photos</p>
-                    <button class="btns">Add Photos</button>
-                </div>
+
 
             </div>
             <div class="description">
-                <h3>Post Your Item</h3>
+                <h3 style="margin-top: 1rem;">Add Category</h3>
+                <h5 style="font-size: 1rem; color:#353535ff ; margin-bottom: 1rem;">Add Category Name Here.....</h5>
+                <input name="name" type="text" class="feedback-input" placeholder="Category Name" />
 
-                <input name="name" type="text" class="feedback-input" placeholder="Title" />
-
-                <textarea name="text " class="feedback-input " placeholder="Description  "></textarea>
-                <div class="buttons">
+                <div class="buttons" style="margin-top: 3rem;">
                     <button class="btns1">Cancel</button>
                     <button class="btns2">Submit</button>
                 </div>

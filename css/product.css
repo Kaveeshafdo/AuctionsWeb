@@ -16,6 +16,21 @@
     background-color: #ffffff;
 }
 
+.btns1 {
+    color: #3C6E71;
+    border: none;
+    background-color: white;
+    font-weight: 500;
+}
+
+.btns1:hover {
+    padding: 0.5rem 4rem;
+    border-radius: 50px;
+    border: #3C6E71 1px solid;
+    color: #3C6E71;
+    background-color: #ffffff;
+}
+
 .content {
     display: flex;
     flex-direction: row;

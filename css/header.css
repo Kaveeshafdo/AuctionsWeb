@@ -63,3 +63,14 @@
             margin-top: 2rem;
         }
     }
+    
+    .b {
+        padding: 2rem;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .button.a {
+        margin: 2rem;
+    }

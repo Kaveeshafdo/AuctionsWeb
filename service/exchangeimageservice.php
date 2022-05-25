@@ -19,13 +19,13 @@ class ExchangeImageService extends ExchangeImage
         return $data3;
     }
 
-    public function insertUser()
+    public function insertExhangeImage()
     {
         $query = "INSERT INTO `exchangeImage`(`offerExchange_id`, `imageName`) VALUES ('" . $this->inputClear($this->getOfferExchangeId()) . "','" . $this->inputClear($this->getImageName()) . "')";
         $this->db->insertIntoDb($query);
     }
 
-    public function deleteUser()
+    public function deleteExhangeImage()
     {
         $query = "UPDATE `exchangeImage` SET `status`=0 WHERE `offerExchange_id`='" . $this->inputClear($this->getOfferExchangeId()) . "' and `imageName`='" . $this->inputClear($this->getImageName()) . "'";
         $this->db->insertIntoDb($query);

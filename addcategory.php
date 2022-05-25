@@ -1,3 +1,17 @@
+<?php
+require_once('service/categoryservice.php');
+if ($_SERVER['REQUEST_METHOD'] == "POST") {
+    if(isset($_POST['Submit'])){
+        $categoryName = $_POST['name'];
+        if(!empty($categoryName)){
+            $category = new CategoryService();
+            $category->__constructWithoutId($categoryName);
+            $category->insertCategory();
+        }
+    }
+}
+?>
+
 <!doctype html>
 <html lang="en">
 
@@ -22,13 +36,14 @@
                 <h3 style="margin-top: 1rem; ">Add Category</h3>
                 <h5 style="font-size: 1rem; color:#353535ff ; margin-bottom: 1rem; ">Add Category Name Here.....</h5>
                 <div class="form ">
-                    <form><input name="name " type="text " class="feedback-input " placeholder="Category Name " s/>
+                    <form action="addcategory.php" method="POST">
+                        <input name="name" type="text " class="feedback-input " placeholder="Category Name " s/>
+                        <div class="buttons " style="margin-top: 2rem; ">
+                        <input class="btns2" type="submit" name="Submit" value="Submit">
+                </div>
                     </form>
                 </div>
-                <div class="buttons " style="margin-top: 3rem; ">
-
-                    <button class="btns2 ">Submit</button>
-                </div>
+                
 
             </div>
         </div>

@@ -19,13 +19,13 @@ class PostImageService extends PostImage
         return $data3;
     }
 
-    public function insertUser()
+    public function insertPostImage()
     {
         $query = "INSERT INTO `postImage`(`post_id`, `imageName`) VALUES ('" . $this->inputClear($this->getPostId()) . "','" . $this->inputClear($this->getImageName()) . "')";
         $this->db->insertIntoDb($query);
     }
 
-    public function deleteUser()
+    public function deletePostImage()
     {
         $query = "UPDATE `postImage` SET `status`=0 WHERE `post_id`='" . $this->inputClear($this->getPostId()) . "' and `imageName`='" . $this->inputClear($this->getImageName()) . "'";
         $this->db->insertIntoDb($query);

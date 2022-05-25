@@ -92,7 +92,6 @@ require_once('database/dbconnect.php');
 
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     if (isset($_POST['signupBtn'])) {
-    
         $username = $_POST['uname'];
         $email = $_POST['email'];
         $genderSelect = $_POST['genderSelect'];

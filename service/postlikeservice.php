@@ -27,7 +27,7 @@ class PostLikeService extends postLike
 
     public function deleteUser()
     {
-        $query = "DELETE FROM postLike WHERE user_id = '" . $this->inputClear($this->getPostId()) . "' , post_id = '" . $this->inputClear($this->getPostId()) . "';
+        $query = "DELETE FROM postLike WHERE user_id = '" . $this->inputClear($this->getPostId()) . "' and post_id = '" . $this->inputClear($this->getPostId()) . "';
         $this->db->insertIntoDb($query);
     }
 }

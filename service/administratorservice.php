@@ -2,7 +2,7 @@
 require_once('database/dbconnect.php');
 require_once('model/administrator.php');
 
-class CategoryService extends Category{
+class administratorService extends administrator{
 
     private $db;
 

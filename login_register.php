@@ -18,14 +18,14 @@
         <div class="container__form container--signup">
             <form action="#" class="form" id="form1">
                 <h2 class="form__title">Sign Up</h2>
-                <input type="text" placeholder="Username" class="input" />
-                <input type="email" placeholder="Email" class="input" />
+                <input type="text" name="uname" placeholder="Username" class="input" />
+                <input type="email" name="email" placeholder="Email" class="input" />
                 <label class="select" for="slct">
                     <select id="slct" name="genderSelect" required="required">
                       <option value="" disabled="disabled" selected="selected">Gender</option>
-                      <option value="#">Male</option>
-                      <option value="#">Female</option>
-                      <option value="#">Other</option>
+                      <option value="M">Male</option>
+                      <option value="F">Female</option>
+                      <option value="O">Other</option>
                      
                     </select>
                     <!-- SVG Sprites-->
@@ -34,9 +34,9 @@
       <polyline points="1 1 5 5 9 1"></polyline>
     </symbol>
   </svg>
-                <input type="date " placeholder="Date Of Birth " class="input " />
-                <input type="number " placeholder="Telephone No " class="input " />
-                <input type="password " placeholder="Password " class="input " />
+                <input type="date" name="dob" placeholder="Date Of Birth " class="input " />
+                <input type="number" name="telNo" placeholder="Telephone No " class="input " />
+                <input type="password" name="pass" placeholder="Password " class="input " />
                 <button class="btn">Sign Up</button>
             </form>
         </div>
@@ -45,8 +45,8 @@
 
             <form action="#" class="form" id="form2">
                 <h2 class="form__title">Sign In</h2>
-                <input type="email" placeholder="Email" class="input" />
-                <input type="password" placeholder="Password" class="input" />
+                <input type="email" name="log_email" placeholder="Email" class="input" />
+                <input type="password" name="log_pass" placeholder="Password" class="input" />
 
                 <p class="liw"> Log in with</p>
                 <div class="icons">

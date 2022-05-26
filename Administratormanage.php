@@ -46,7 +46,8 @@
                     <td>Mark</td>
                     <td>Otto</td>
 
-                    <td> <button type="button" class="btn btn-danger"><i class="fas fa-times"></i>Remove</button></td>
+                    <td> <button type="button" class="btn btn-danger"><i class="fas fa-times"></i>Remove</button>
+                    <button type="button" class="btn btn-success"><i class="fas fa-edit"></i>Update</button></td>
                 </tr>
 
 

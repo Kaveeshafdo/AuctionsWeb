@@ -33,7 +33,7 @@
                     <th scope="col">Tele.No</th>
                     <th scope="col">Gender</th>
                     <th scope="col">Birthday</th>
-                    <th scope="col">Delete</th>
+                    <th scope="col">Manage</th>
 
                 </tr>
             </thead>
@@ -47,6 +47,7 @@
                     <td>Otto</td>
 
                     <td> <button type="button" class="btn btn-danger"><i class="fas fa-times"></i>Remove</button></td>
+                    <button type="button" class="btn btn-success"><i class="fas fa-edit"></i>Update</button>
                 </tr>
 
 

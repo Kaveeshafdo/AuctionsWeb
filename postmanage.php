@@ -33,7 +33,7 @@
                     <th scope="col">Post Location</th>
                     <th scope="col">date</th>
                     <th scope="col">time</th>
-                    <th scope="col">Delete</th>
+                    <th scope="col">Manage</th>
 
                 </tr>
             </thead>
@@ -47,7 +47,8 @@
                     <td>Otto</td>
                     <td>Otto</td>
 
-                    <td> <button type="button" class="btn btn-danger"><i class="fas fa-times"></i>Remove</button></td>
+                    <td> <button type="button" class="btn btn-danger"><i class="fas fa-times"></i>Remove</button>
+                    <button type="button" class="btn btn-success"><i class="fas fa-eye"></i>Visible</button></td>
                 </tr>
 
 

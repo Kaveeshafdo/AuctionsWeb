@@ -73,7 +73,7 @@ if (!isset($_SESSION)) {
                                 </a>
                                 <ul class="nav nav-treeview" style="display: none;">
                                     <li class="nav-item">
-                                        <a href="./newsManageForm.php" class="nav-link">
+                                        <a href="./usermanage.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Manage User</p>
                                         </a>
@@ -96,7 +96,7 @@ if (!isset($_SESSION)) {
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="./sponsorManageForm.php" class="nav-link">
+                                        <a href="./categorymanage.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Manage Category</p>
                                         </a>
@@ -119,7 +119,7 @@ if (!isset($_SESSION)) {
                                         </a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="./adminManageForm.php" class="nav-link">
+                                        <a href="./administratormanage.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Manage Administrator</p>
                                         </a>

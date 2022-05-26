@@ -51,15 +51,15 @@ require_once('database/dbconnect.php');
                     <h2 class="title">Sign up</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" name="uname" placeholder="Username">
+                        <input type="text" name="uname" placeholder="Username" styele =" font-size: 1rem;">
                     </div>
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
                         <input type="email" name="email" placeholder="Email">
                     </div>
                     <div class="input-field">
-                        <i class="fas fa-envelope"></i>
-                        <select id="slct" name="genderSelect" required="required">
+                    <i class="fas fa-venus-mars"></i>
+                        <select id="slct" name="genderSelect" required="required" class="selection" style= " border: none; background-color:transparent;">
                             <option value="X" disabled="disabled" selected="selected">Gender</option>
                             <option value="M">Male</option>
                             <option value="F">Female</option>
@@ -67,15 +67,15 @@ require_once('database/dbconnect.php');
                         </select>
                     </div>
                     <div class="input-field">
-                        <i class="fas fa-envelope"></i>
+                    <i class="fas fa-calendar-alt"></i>
                         <input type="date" name="dob" placeholder="Date Of Birth">
                     </div>
                     <div class="input-field">
-                        <i class="fas fa-envelope"></i>
+                    <i class="fas fa-phone-alt"></i>
                         <input type="number" name="telNo" placeholder="Telephone No">
                     </div>
                     <div class="input-field">
-                        <i class="fas fa-envelope"></i>
+                    <i class="fas fa-lock"></i>
                         <input type="password" name="pass" placeholder="Password">
                     </div>
                     <input type="submit" name="signSubmit" value="Sign up" class="btn solid">
@@ -101,14 +101,14 @@ require_once('database/dbconnect.php');
                     <h3>New here?</h3>
                     <button class="btn transparent" id="sign-up-btn">Sign up</button>
                 </div>
-                <img src="images/—Pngtree—badminton fitness little boy_4588098.png" class="image" alt="">
+                <img src="images/8.png" class="image" alt="">
             </div>
             <div class="panel right-panel">
                 <div class="content">
                     <h3>One of Us?</h3>
                     <button class="btn transparent" id="sign-in-btn">Sign in</button>
                 </div>
-                <img src="images/—Pngtree—basketball player color silhouette_6551187.png" class="image" alt="">
+                <img src="images/9.png" class="image" alt="">
             </div>
         </div>
     </div>

@@ -8,7 +8,7 @@ if (!isset($_SESSION)) {
     <!-- Brand Logo -->
     <a href="./admin/dashboard.php" class="brand-link">
         <!--<img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">-->
-        <span class="brand-text font-weight-light">Olymic</span>
+        <span class="brand-text font-weight-light">BUNZ</span>
     </a>
 
     <!-- Sidebar -->
@@ -43,7 +43,7 @@ if (!isset($_SESSION)) {
                             <li class="nav-item">
                                 <a href="./admin/dashboard.php" class="nav-link">
                                     <i class="nav-icon fas fa-tachometer-alt" aria-hidden="true"></i>
-                                    <p>dashboard</p>
+                                    <p>dasfhboard</p>
                                 </a>
                             </li>
                             <li class="nav-item">

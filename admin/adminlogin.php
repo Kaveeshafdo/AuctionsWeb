@@ -8,8 +8,8 @@ $errors2 = array();
 if ($_SERVER['REQUEST_METHOD'] == "POST") {
     if (isset($_POST['adloginbtn'])) {
 
-        $admin_name = stripslashes($_POST['aname']);
-        $pass_word = stripslashes($_POST['pass']);
+        $admin_name = $_POST['aname'];
+        $pass_word = $_POST['pass'];
 
         if (empty($admin_name)) {
             $errors1[] = 'Admin Name is Required';

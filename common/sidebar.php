@@ -1,8 +1,7 @@
 <?php
-   if(!isset($_SESSION)) 
-   { 
-       session_start(); 
-   } 
+if (!isset($_SESSION)) {
+    session_start();
+}
 ?>
 
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
@@ -30,7 +29,7 @@
                             <!--<img src="dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">-->
                         </div>
                         <div class="info">
-                        <a href="#" class="d-block"><?php echo "<p class='d-block'>".$_SESSION['sess_admin_username']."</p>";  ?></a>
+                            <a href="#" class="d-block"><?php echo "<p class='d-block'>" . $_SESSION['sess_admin_username'] . "</p>";  ?></a>
                         </div>
                     </div>
 
@@ -51,21 +50,15 @@
                                 <a href="#" class="nav-link">
                                     <i class="nav-icon fa fa-calendar"></i>
                                     <p>
-                                        Event Manage
+                                        Post Manage
                                         <i class="right fas fa-angle-left"></i>
                                     </p>
                                 </a>
                                 <ul class="nav nav-treeview" style="display: none;">
                                     <li class="nav-item">
-                                        <a href="./eventform.php" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Add Event</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a href="./eventManageForm.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Manage Event</p>
+                                            <p>Manage Post</p>
                                         </a>
                                     </li>
                                 </ul>
@@ -74,21 +67,15 @@
                                 <a href="#" class="nav-link">
                                     <i class="nav-icon fa fa-newspaper"></i>
                                     <p>
-                                        News Manage
+                                        User Manage
                                         <i class="right fas fa-angle-left"></i>
                                     </p>
                                 </a>
                                 <ul class="nav nav-treeview" style="display: none;">
                                     <li class="nav-item">
-                                        <a href="./newsform.php" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Add News</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
                                         <a href="./newsManageForm.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Manage News</p>
+                                            <p>Manage User</p>
                                         </a>
                                     </li>
                                 </ul>
@@ -97,7 +84,7 @@
                                 <a href="#" class="nav-link">
                                     <i class="nav-icon fa fa-plus-square"></i>
                                     <p>
-                                        Sponsor Manage
+                                        Category Manage
                                         <i class="right fas fa-angle-left"></i>
                                     </p>
                                 </a>
@@ -105,13 +92,13 @@
                                     <li class="nav-item">
                                         <a href="./sponsorform.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Add Sponsor</p>
+                                            <p>Add Category</p>
                                         </a>
                                     </li>
                                     <li class="nav-item">
                                         <a href="./sponsorManageForm.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
-                                            <p>Manage Sponsor</p>
+                                            <p>Manage Category</p>
                                         </a>
                                     </li>
                                 </ul>
@@ -135,29 +122,6 @@
                                         <a href="./adminManageForm.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Manage Administrator</p>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li class="nav-item">
-                                <a href="#" class="nav-link">
-                                    <i class="nav-icon fa fa-bullhorn" aria-hidden="true"></i>
-                                    <p>
-                                        Broadcast Manage
-                                        <i class="right fas fa-angle-left"></i>
-                                    </p>
-                                </a>
-                                <ul class="nav nav-treeview" style="display: none;">
-                                    <li class="nav-item">
-                                        <a href="./broadcastform.php" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Add Broadcast</p>
-                                        </a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="./broadcastManageForm.php" class="nav-link">
-                                            <i class="far fa-circle nav-icon"></i>
-                                            <p>Manage Broadcast</p>
                                         </a>
                                     </li>
                                 </ul>

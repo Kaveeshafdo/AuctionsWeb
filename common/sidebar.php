@@ -113,7 +113,7 @@ if (!isset($_SESSION)) {
                                 </a>
                                 <ul class="nav nav-treeview" style="display: none;">
                                     <li class="nav-item">
-                                        <a href="./adminform.php" class="nav-link">
+                                        <a href="./addadministrator.php" class="nav-link">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Add Administrator</p>
                                         </a>

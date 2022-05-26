@@ -1,5 +1,4 @@
 <?php
-session_start();
 require_once('service/userservice.php');
 require_once('database/dbconnect.php');
 ?>

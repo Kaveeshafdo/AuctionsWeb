@@ -55,7 +55,9 @@
     <title></title>
 </head>
 
-<div style="width:100%"><?php
+<div style="width:100%">
+
+<?php
   include 'common/header.php';
   include 'common/menu.php';
   ?></div>

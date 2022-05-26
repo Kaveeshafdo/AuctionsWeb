@@ -7,6 +7,8 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
             $category = new CategoryService();
             $category->__constructWithoutId($categoryName);
             $category->insertCategory();
+            echo '<script> alert("Category Added Successfully"); </script>';
+            
         }
     }
 }

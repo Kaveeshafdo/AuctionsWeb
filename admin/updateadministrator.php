@@ -61,7 +61,7 @@
     <div class="container content-wrapper">
         <h1 style="margin-bottom:3rem ;">Update Administrator</h1>
         <div class="content">
-            <div class="col-5 a">
+            <div class="col-6 a">
                 <h3>Update Profile</h3>
                 <form action="" method="POST">
                     <div class="mb-3">
@@ -97,7 +97,7 @@
                     </div>
                 </form>
             </div>
-            <div class="col-5 a">
+            <div class="col-6 a">
                 <h3>Change Password</h3>
                 <div class="mb-3">
                     <label for="formGroupExampleInput" class="form-label">Password</label>

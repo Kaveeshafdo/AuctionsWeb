@@ -51,7 +51,7 @@
                     </div>
                 </div>
                 <!-- /.form-group -->
-                <div class="buttons">
+                <div class="buttons">    
                     <button class="btns1">Cancel</button>
                     <button class="btns2">Submit</button>
                 </div>

@@ -37,6 +37,10 @@
                     <button type="button" class="btn  btns2" data-bs-toggle="modal" data-bs-target="#exampleModal">
                         Change Password
   </button>
+                    <h2 style="margin-top: 1rem;">Deactivate Account</h2>
+                    <button type="button" class="btn  btns2" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Deactivate Account
+  </button>
 
                     <!-- Modal -->
                     <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

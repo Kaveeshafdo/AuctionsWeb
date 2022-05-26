@@ -55,11 +55,12 @@
     <title></title>
 </head>
 
+<div style="width:100%">
 
 <?php
   include 'common/header.php';
   include 'common/menu.php';
-  ?>
+  ?></div>
   <div style=""><?php
         include 'common/category.php';
         include 'recentpost.php';

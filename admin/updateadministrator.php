@@ -11,18 +11,18 @@
     .update {
         margin-top: 2rem;
     }
-    
+
     .content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
     }
-    
+
     .container h1 {
         text-align: center;
         border-bottom: 2rem;
     }
-    
+
     .content {
         border-top: 2rem;
     }
@@ -56,12 +56,12 @@
                 </div>
                 <label for="formGroupExampleInput2" class="form-label">Gender</label>
                 <select class="form-select" aria-label="Default select example">
-         
-  <option selected>Select Gender</option>
-  <option value="1">Male</option>
-  <option value="2">Female</option>
-  <option value="3">Other</option>
-</select>
+
+                    <option selected>Select Gender</option>
+                    <option value="1">Male</option>
+                    <option value="2">Female</option>
+                    <option value="3">Other</option>
+                </select>
                 <div class="d-grid gap-2">
                     <button class="btn btn-success update" type="button">Update</button>
                     <button class="btn btn-secondary" type="button">Cancel</button>

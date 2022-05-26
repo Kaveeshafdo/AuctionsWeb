@@ -27,9 +27,12 @@
         <table class="table table-dark table-striped tab">
             <thead>
                 <tr><th scope="col">ID</th>
-                    <th scope="col">Category</th>
+                    <th scope="col">Username</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Tele.No</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">Birthday</th>
                     <th scope="col">Delete</th>
-                    
 
                 </tr>
             </thead>
@@ -37,9 +40,13 @@
                 <tr>
                 <td>Mark</td>
                     <td>Mark</td>
-                    
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                    <td>Mark</td>
+                    <td>Otto</td>
 
-                    <td> <button type="button" class="btn btn-danger"><i class="fas fa-times"></i>Remove</button></td>
+                    <td> <button type="button" class="btn btn-danger"><i class="fas fa-times"></i>Remove</button>
+                    <button type="button" class="btn btn-success"><i class="fas fa-eye"></i>Visible</button></td></td>
                 </tr>
 
 

@@ -27,7 +27,7 @@ input {
     width: 2000px;
     height: 2000px;
     border-radius: 50%;
-    background: linear-gradient(-45deg, rgb(12, 153, 26), #1d9e14);
+    background: linear-gradient(-45deg, rgb(53, 53, 53), #3c6e71ff);
     top: -10%;
     right: 48%;
     transform: translateY(-50%);
@@ -97,7 +97,7 @@ form.sign-up-form {
 .input-field i {
     text-align: center;
     line-height: 55px;
-    color: rgb(46, 141, 46);
+    color: #3c6e71ff;
     font-size: 1.1rem;
 }
 
@@ -109,11 +109,11 @@ form.sign-up-form {
     font-weight: 600;
     font-size: 1.5rem;
     color: #333;
+    font-size: 1rem;
 }
 
 .input-field input::placeholder {
     color: #333;
-    font-weight: 500;
 }
 
 .btn {
@@ -224,6 +224,14 @@ form.sign-up-form {
 .right-panel .content,
 .right-panel .image {
     transform: translateX(800px);
+}
+
+.selection {
+    border: none;
+}
+
+.input-field option {
+    border: none;
 }
 
 

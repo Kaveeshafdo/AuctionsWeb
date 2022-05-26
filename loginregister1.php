@@ -51,15 +51,15 @@ require_once('database/dbconnect.php');
                     <h2 class="title">Sign up</h2>
                     <div class="input-field">
                         <i class="fas fa-user"></i>
-                        <input type="text" name="uname" placeholder="Username">
+                        <input type="text" name="uname" placeholder="Username" styele =" font-size: 1rem;">
                     </div>
                     <div class="input-field">
                         <i class="fas fa-envelope"></i>
                         <input type="email" name="email" placeholder="Email">
                     </div>
                     <div class="input-field">
-                        <i class="fas fa-envelope"></i>
-                        <select id="slct" name="genderSelect" required="required">
+                    <i class="fas fa-venus-mars"></i>
+                        <select id="slct" name="genderSelect" required="required" class="selection" style= " border: none; background-color:transparent;">
                             <option value="X" disabled="disabled" selected="selected">Gender</option>
                             <option value="M">Male</option>
                             <option value="F">Female</option>
@@ -67,15 +67,15 @@ require_once('database/dbconnect.php');
                         </select>
                     </div>
                     <div class="input-field">
-                        <i class="fas fa-envelope"></i>
+                    <i class="fas fa-calendar-alt"></i>
                         <input type="date" name="dob" placeholder="Date Of Birth">
                     </div>
                     <div class="input-field">
-                        <i class="fas fa-envelope"></i>
+                    <i class="fas fa-phone-alt"></i>
                         <input type="number" name="telNo" placeholder="Telephone No">
                     </div>
                     <div class="input-field">
-                        <i class="fas fa-envelope"></i>
+                    <i class="fas fa-lock"></i>
                         <input type="password" name="pass" placeholder="Password">
                     </div>
                     <input type="submit" name="signSubmit" value="Sign up" class="btn solid">

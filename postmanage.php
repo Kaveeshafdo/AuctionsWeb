@@ -27,11 +27,12 @@
         <table class="table table-dark table-striped tab">
             <thead>
                 <tr><th scope="col">ID</th>
-                    <th scope="col">Username</th>
-                    <th scope="col">Email</th>
-                    <th scope="col">Tele.No</th>
-                    <th scope="col">Gender</th>
-                    <th scope="col">Birthday</th>
+                    <th scope="col">Title</th>
+                    <th scope="col">Category</th>
+                    <th scope="col">View Count</th>
+                    <th scope="col">Post Location</th>
+                    <th scope="col">date</th>
+                    <th scope="col">time</th>
                     <th scope="col">Delete</th>
 
                 </tr>
@@ -43,6 +44,7 @@
                     <td>Otto</td>
                     <td>@mdo</td>
                     <td>Mark</td>
+                    <td>Otto</td>
                     <td>Otto</td>
 
                     <td> <button type="button" class="btn btn-danger"><i class="fas fa-times"></i>Remove</button></td>

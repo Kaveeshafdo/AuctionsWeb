@@ -26,7 +26,8 @@
     <div class="container">
         <table class="table table-dark table-striped tab">
             <thead>
-                <tr><th scope="col">ID</th>
+                <tr>
+                <th scope="col">ID</th>
                     <th scope="col">Username</th>
                     <th scope="col">Email</th>
                     <th scope="col">Tele.No</th>

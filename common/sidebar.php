@@ -43,7 +43,7 @@ if (!isset($_SESSION)) {
                             <li class="nav-item">
                                 <a href="./admin/dashboard.php" class="nav-link">
                                     <i class="nav-icon fas fa-tachometer-alt" aria-hidden="true"></i>
-                                    <p>dashboard</p>
+                                    <p>dasfhboard</p>
                                 </a>
                             </li>
                             <li class="nav-item">

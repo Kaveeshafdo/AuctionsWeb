@@ -8,7 +8,7 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/item_for_trade.css">
-    <link rel="stylesheet" href="../css/tag.css">
+    <link rel="stylesheet" href="css/tag.css">
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/thinline.css">
@@ -42,11 +42,11 @@
                 <div class="wrapper">
 
                     <div class="content">
-                        <p>Press enter or add a comma after each tag</p>
+                        <p>Press enter or after each tag</p>
                         <ul><input type="text" id="inputs" spellcheck="false"></ul>
                     </div>
                     <div class="details">
-                        <p><span>10</span> tags are remaining</p>
+                        <p><span>5</span> tags are remaining</p>
                         <button>Remove All</button>
                     </div>
                 </div>
@@ -71,7 +71,7 @@
         const ul = document.querySelector("ul"),
             input = document.getElementById("inputs"),
             tagNumb = document.querySelector(".details span");
-        let maxTags = 10,
+        let maxTags = 5,
             tags = ["Books", "Pens"];
         countTags();
         createTag();
@@ -101,7 +101,7 @@
             if (e.key == "Enter") {
                 let tag = e.target.value.replace(/\s+/g, ' ');
                 if (tag.length > 1 && !tags.includes(tag)) {
-                    if (tags.length < 10) {
+                    if (tags.length < 5) {
                         tag.split(',').forEach(tag => {
                             tags.push(tag);
                             createTag();
